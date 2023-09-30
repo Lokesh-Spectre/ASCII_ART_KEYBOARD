@@ -45,7 +45,6 @@ def artify(key):
 				c=1
 			else:
 				out=renderChar(key.char)
-				print(out)
 				[ctrl.tap(kb.Key.up) for x in range(4)]
 				ignore+=len(out)+4
 				out=out.split('\n')
